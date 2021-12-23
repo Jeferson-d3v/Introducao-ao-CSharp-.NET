@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Csharp;
 using Interface;
+using Enum;
 
 namespace Csharp
 {
@@ -26,6 +27,10 @@ namespace Csharp
             animal.Nome = "Half";
             animal.Dono = "Jessica";
             animal.Especie = "Labrador";
+
+            var pessoa1 = (Pessoas)0;
+            Pessoas pessoa2 = Pessoas.Vera;
+            Pessoas pessoa3 = (Pessoas)1;
         }        
     }
 }
